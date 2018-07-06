@@ -14,16 +14,16 @@ const PluginError = require('plugin-error')
 
 const fontFace = `
 @font-face {
-  font-family : 'undefined';
-  src         : url('undefined') format('truetype');
+  font-family : '@{fontFamilyName}';
+  src         : url('@{fontString}') format('truetype');
   font-weight : normal;
   font-style  : normal;
 }
 `
 
 const fontClass = `
-.undefined{
-  font-family: 'undefined';
+.@{className}{
+  font-family: '@{fontFamilyName}';
   font-weight : normal;
   font-style  : normal;
   -webkit-font-smoothing: antialiased;
@@ -31,8 +31,8 @@ const fontClass = `
 `
 
 const iconClass = `
-.undefined_undefined::before{
-  content: 'undefined';
+.@{className}_@{icon}::before{
+  content: '@{glyph}';
 }
 `
 
