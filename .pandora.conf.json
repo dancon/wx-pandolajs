@@ -1,0 +1,10 @@
+{
+  "boilerplate": {
+    "name": "@pandolajs/pandora-boilerplate-wechat",
+    "version": "0.2.1"
+  },
+  "user": {
+    "name": "houquan",
+    "email": "houquan@babytree-inc.com"
+  }
+}

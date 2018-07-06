@@ -1,0 +1,11 @@
+appId: 'wxf52540f35d943aea'
+appName: 'wx-pandolajs'
+version: '1.0.0'
+development:
+  env: 'development'
+test:
+  env: 'test'
+preproduction:
+  env: 'preproduction'
+production:
+  env: 'production'
