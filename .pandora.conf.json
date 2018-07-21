@@ -1,8 +1,19 @@
 {
   "boilerplate": {
     "name": "@pandolajs/pandora-boilerplate-wechat",
-    "version": "0.2.2"
+    "version": "0.3.1",
+    "keywords": [
+      "pandora-boilerplate",
+      "wechat",
+      "miniprogram"
+    ]
   },
+  "components": [
+    {
+      "name": "babytree-ui",
+      "path": "packages"
+    }
+  ],
   "user": {
     "name": "houquan",
     "email": "houquan@babytree-inc.com"
